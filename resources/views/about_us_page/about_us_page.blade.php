@@ -1,7 +1,7 @@
 @extends('index')
 
 @section('page_styles')
-    <link href="{{asset('css/about_us_page.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{secure_asset('css/about_us_page.css')}}" rel="stylesheet" type="text/css">
 @endsection
 
 @section('initialRendering')
